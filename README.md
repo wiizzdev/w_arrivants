@@ -1,4 +1,4 @@
-# w_menuarrivant
+# w_arrivant
 Menu Arrivant / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Discord : https://discord.gg/VpYP58ZjmD
