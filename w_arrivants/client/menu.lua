@@ -8,11 +8,11 @@ Citizen.CreateThread(function()
     end
 end)
 
-local mainMenu = RageUI.CreateMenu("Menu Arrivants", "arrivants") -- menu principal
-local reseau = RageUI.CreateSubMenu(mainMenu, "Réseaux", "réseaux du serveur") -- sous-menu réseau
-local touche = RageUI.CreateSubMenu(mainMenu, "Touches", "touches du serveur") -- sous-menu touche
-local commandes = RageUI.CreateSubMenu(mainMenu, "Commandes", "commandes du serveur") -- sous-menu touche
-local gps = RageUI.CreateSubMenu(mainMenu, "GPS", "endroits important du serveur") -- sous-menu touche
+local mainMenu = RageUI.CreateMenu("Menu Arrivants", "MENU") -- menu principal
+local reseau = RageUI.CreateSubMenu(mainMenu, "Réseaux", "MENU") -- sous-menu réseau
+local touche = RageUI.CreateSubMenu(mainMenu, "Touches", "MENU") -- sous-menu touche
+local commandes = RageUI.CreateSubMenu(mainMenu, "Commandes", "MENU") -- sous-menu touche
+local gps = RageUI.CreateSubMenu(mainMenu, "GPS", "MENU") -- sous-menu touche
 
 local open = false
 mainMenu.Closed = function() 
