@@ -15,7 +15,11 @@ local commandes = RageUI.CreateSubMenu(mainMenu, "Commandes", "MENU") -- sous-me
 local gps = RageUI.CreateSubMenu(mainMenu, "GPS", "MENU") -- sous-menu touche
 local open = false
 
-mainMenu.Display.Glare = true -- afficher la planète sur la bannière ?
+mainMenu.Display.Glare = true -- afficher la planète sur la bannière principale ?
+reseau.Display.Glare = true -- afficher la planète sur la bannière principale ?
+touche.Display.Glare = true -- afficher la planète sur la bannière principale ?
+commandes.Display.Glare = true -- afficher la planète sur la bannière principale ?
+gps.Display.Glare = true -- afficher la planète sur la bannière principale ?
 
 mainMenu.X = 0 -- position x du menu (1450 pour la droite de l'écran)
 mainMenu.Y = 0 -- position y du menu (780 pour le bas de l'écran)
