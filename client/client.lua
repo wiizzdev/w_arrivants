@@ -50,13 +50,6 @@ function Arrivants()
     end
 end
 
-Citizen.CreateThread(function()
-    while true do
-        ESX.ShowAdvancedNotification("Besoin d'Aide", "Infos", "Vous avez besoin d'Aide ? Un doute sur les touches ? Faites la commande /help", "CHAR_GAYMILITARY", 1)
-    Wait(2000000)
-    end
-end)
-
 RegisterCommand("help", function()
     Arrivants()
 end)
